@@ -17,9 +17,42 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <view key="tableHeaderView" contentMode="scaleToFill" id="3IK-ST-vTW">
+                            <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <subviews>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Fhr-Vi-BP0">
+                                    <rect key="frame" x="8" y="15" width="175.5" height="14"/>
+                                    <state key="normal" title="Edit"/>
+                                    <connections>
+                                        <action selector="toggleEditingMode:" destination="Awd-2E-SKb" eventType="touchUpInside" id="JJB-wx-663"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iax-gd-mTN">
+                                    <rect key="frame" x="191.5" y="15" width="175.5" height="14"/>
+                                    <state key="normal" title="Add"/>
+                                    <connections>
+                                        <action selector="addNewItem:" destination="Awd-2E-SKb" eventType="touchUpInside" id="wlH-c8-sMo"/>
+                                    </connections>
+                                </button>
+                            </subviews>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <constraints>
+                                <constraint firstItem="iax-gd-mTN" firstAttribute="centerY" secondItem="3IK-ST-vTW" secondAttribute="centerY" id="0RM-0D-aET"/>
+                                <constraint firstAttribute="trailing" secondItem="iax-gd-mTN" secondAttribute="trailing" constant="8" id="0Xt-xM-YGh"/>
+                                <constraint firstItem="iax-gd-mTN" firstAttribute="leading" secondItem="Fhr-Vi-BP0" secondAttribute="trailing" constant="8" id="2vs-Hx-sdH"/>
+                                <constraint firstItem="Fhr-Vi-BP0" firstAttribute="top" secondItem="3IK-ST-vTW" secondAttribute="top" constant="15" id="HUN-RK-cPd"/>
+                                <constraint firstItem="Fhr-Vi-BP0" firstAttribute="leading" secondItem="3IK-ST-vTW" secondAttribute="leading" constant="8" id="QmG-Gm-Ro0"/>
+                                <constraint firstItem="iax-gd-mTN" firstAttribute="width" secondItem="Fhr-Vi-BP0" secondAttribute="width" id="Tol-C5-YPF"/>
+                                <constraint firstAttribute="bottom" secondItem="Fhr-Vi-BP0" secondAttribute="bottom" constant="15" id="Vvt-dD-bRU"/>
+                                <constraint firstAttribute="bottom" secondItem="iax-gd-mTN" secondAttribute="bottom" constant="15" id="cBP-DV-Wk4"/>
+                                <constraint firstItem="iax-gd-mTN" firstAttribute="top" secondItem="3IK-ST-vTW" secondAttribute="top" constant="15" id="u5I-Ag-CzR"/>
+                                <constraint firstItem="Fhr-Vi-BP0" firstAttribute="centerY" secondItem="3IK-ST-vTW" secondAttribute="centerY" id="xYi-ZV-kV9"/>
+                            </constraints>
+                        </view>
                         <prototypes>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="UITableViewCell" textLabel="n11-j2-1vq" detailTextLabel="GJQ-Mp-ikf" style="IBUITableViewCellStyleValue1" id="lJe-4o-nzZ">
-                                <rect key="frame" x="0.0" y="28" width="375" height="44"/>
+                                <rect key="frame" x="0.0" y="72" width="375" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="lJe-4o-nzZ" id="LfA-bX-H3L">
                                     <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
@@ -51,7 +84,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gZe-CB-3xP" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-61" y="-41"/>
+            <point key="canvasLocation" x="560.79999999999995" y="19.340329835082461"/>
         </scene>
     </scenes>
 </document>
