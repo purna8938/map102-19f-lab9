@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		071900A5237F2E630087E9A6 /* ItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 071900A4237F2E630087E9A6 /* ItemCell.swift */; };
+		075FB63023887DE000225461 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 075FB62F23887DE000225461 /* DetailViewController.swift */; };
 		07F1082F23636D5E0094941E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F1082E23636D5E0094941E /* AppDelegate.swift */; };
 		07F1083423636D5E0094941E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07F1083223636D5E0094941E /* Main.storyboard */; };
 		07F1083623636D600094941E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07F1083523636D600094941E /* Assets.xcassets */; };
@@ -38,6 +39,7 @@
 
 /* Begin PBXFileReference section */
 		071900A4237F2E630087E9A6 /* ItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemCell.swift; sourceTree = "<group>"; };
+		075FB62F23887DE000225461 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		07F1082B23636D5E0094941E /* HoweOwner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HoweOwner.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		07F1082E23636D5E0094941E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		07F1083323636D5E0094941E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -107,6 +109,7 @@
 				07F108622363729A0094941E /* ItemStore.swift */,
 				07F1083223636D5E0094941E /* Main.storyboard */,
 				07F1083523636D600094941E /* Assets.xcassets */,
+				075FB62F23887DE000225461 /* DetailViewController.swift */,
 				07F1083723636D600094941E /* LaunchScreen.storyboard */,
 				07F1083A23636D600094941E /* Info.plist */,
 				07F1085E236370220094941E /* ItemsViewController.swift */,
@@ -268,6 +271,7 @@
 				07F1085F236370220094941E /* ItemsViewController.swift in Sources */,
 				07F108612363717A0094941E /* Item.swift in Sources */,
 				07F108632363729A0094941E /* ItemStore.swift in Sources */,
+				075FB63023887DE000225461 /* DetailViewController.swift in Sources */,
 				07F1082F23636D5E0094941E /* AppDelegate.swift in Sources */,
 				071900A5237F2E630087E9A6 /* ItemCell.swift in Sources */,
 			);
